@@ -400,7 +400,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"seed.bit-cloud.info", "188.68.52.172", "37.120.186.85", "37.120.190.76", "151.80.240.200", "45.76.88.226", ""};
+static const string mainnet_seeds[] = {"seed.bit-cloud.info", "188.68.52.172", "51.15.60.194", "37.120.186.85", "37.120.190.76", "151.80.240.200", "45.76.88.226", ""};
 static const string testnet_seeds[] = {"testnet.bitcore.cc", ""};
 static const string *seeds = mainnet_seeds;
 
