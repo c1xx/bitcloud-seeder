@@ -400,8 +400,8 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"51.15.236.8", "51.15.254.77", "51.15.112.57", "51.15.232.231", "51.15.103.195","51.15.252.134", "51.15.112.200", "212.47.241.194", "51.15.36.63", "51.15.110.185", "51.15.104.95"};
-static const string testnet_seeds[] = {""};
+static const string mainnet_seeds[] = {"51.15.236.8", "51.15.254.77", "51.15.112.57", "51.15.232.231", "51.15.103.195", "51.15.252.134", "51.15.112.200", "212.47.241.194", "51.15.36.63", "51.15.110.185", "51.15.104.95", ""};
+static const string testnet_seeds[] = {"testnet.bit-cloud.info", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
