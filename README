@@ -1,7 +1,7 @@
-Bitcloud-seeder
+BitCloud-seeder
 ===============
 
-Bitcloud-seeder is a crawler for the Bitcloud network, which exposes a list
+BitCloud-seeder is a crawler for the BitCloud network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:
