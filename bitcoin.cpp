@@ -111,7 +111,9 @@ class CNode {
         vRecv >> strSubVer;
 	
       if (strSubVer.find("/Satoshi:0.10.0/") != std::string::npos
-              || strSubVer.find("/Satoshi:0.7.2/") != std::string::npos
+              || strSubVer.find("/BTDX Core:2.0.1/") != std::string::npos
+              || strSubVer.find("/BTDX Core:2.0.1.1/") != std::string::npos
+	      || strSubVer.find("/Satoshi:0.7.2/") != std::string::npos
               || strSubVer.find("/Satoshi:0.8.0/") != std::string::npos
               || strSubVer.find("/Satoshi:0.8.1/") != std::string::npos
               || strSubVer.find("/Satoshi:0.8.5/") != std::string::npos
